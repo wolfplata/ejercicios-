@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- DOCTYPE ayuda al navegador a saber con que tipo de formato trabajará-->
+<html>
+<!--La etiqueta html es la base del documento -->
+
+<br>
+<head>
+    <!-- La etiqueta head contiene las clases, formatos de textos, metas y estilos css-->
+<title>Titulo</title>
+<!-- el título ayuda a ver el nombre de la pagina en las pestañas del navegador -->
+<meta charset="utf-8">
+<!--Meta chardset=utf-8 ayuda a usar la codificación estandar y corrige el problema de caracteres especiales-->
+<link rel="stylesheet" href="css/estilos.css">
+<!-- rel define el estilo a usar y href contiene la carpeta de estilos a usar, se indica la ruta entre comillas-->
+</head>
+
+<br>
+<!--Y sigue la etiqueta body donde está todo el contenido a mostrarse a los usuarios-->
+<body>
+    <h2>Etiquetas de Documento</h2>
+        <br>
+        <!-- br es un salto de linea-->
+        <div class="contenedor"> 
+            <!-- la etiqueta div sirve para agrupar bloques o trozos de código, donde se le pueden dar a cada uno una clase y un estilo diferente-->
+        <h1> El título</h1>
+        <!-- los h1.2.3.4.5.6.. son títulos de diferentes tamaños y prioridad que se usan para separar parrafos-->
+        <br>
+        <p>Contenido <span>del</span> parrafo</p>
+        <!-- p son los parrafos o contenidos largos-->
+        </div>
+        <br>
+        <h2>Receta de algo</h2>
+        <h3>Ingredientes</h3>
+        <!--ul es una lista no ordenada siempre depende de la etiqueta li-->
+        <ul>
+            <li> Agua</li>
+            <li> Harina</li>
+            <li>Levadura</li>
+            <li> Sal</li>
+        </ul>
+        <br>
+        <h3>Ingredienes numerados</h3>
+        <!--ol es una lista ordenada o numerada igual depende de la etiqueta li-->
+        <ol>
+            <li> Agua</li>
+            <li> Harina</li>
+            <li>Levadura</li>
+            <li> Sal</li>
+        </ol>
+
+        <div class="tipografia">
+        <h1> Tipografia</h1>
+        <br>
+        <h2> Texto con font-size de 24px , también existe la unidad de medida em, relacionada con el px</h2>
+        <br>
+        <p>Este es un ejemplo con el font-weight: bold</p><br>
+        <h3>Este es un ejemplo con el font-weight: normal</h3><br>
+        <h4>Este es un ejemplo con el font-style: italic que seria cursiva, tambien se revierte con font-style: normal</h4><br>
+        </div><br>
+        <div class="tipografia2">
+        <h1>Este es un ejemplo con text-decoration: underline</h1>
+        <h2>Este es un ejemplo con text-decoration: line-through</h2>
+        <!-- Para resetear dirias text-decoration:none-->
+        <h3>Este es un ejemplo con un line-height:1.5</h3>
+        <h4>Este es un ejemplo con un line-heigth:3</h4>
+
+        </div>
+
+        <div class="especifico">
+            <p>Esto es un ejemplo de especifisidad</p>
+            <br>
+            <p>
+                <div class="parrafo"> 
+                <p>Hola mundo</p>    
+                </div></p>
+        </div>
+
+        <!-- Etiquetas para sub clases
+        hover: Cuando pasas el puntero por encima del texto hace un acción.
+        active: Si apritas un enlace hace una acción.
+        visited: Si el enlace ya a sido visitado hace una acción.
+        focus: Si se llega a un enlace mediante el cursor o el tabulador hace una acción.
+
+        Si haces click en un elemento active y focus se activan al mismo tiempo asi que hay que tomar en cuenta 
+        cual usar
+        -->
+
+        <a href="#Contacto">
+
+            <p> Ejemplo de sub clases 1</p>
+           <!-- <h2>Ejemplo de sub clases 2</h2> -->
+
+        </a>  
+<p>RELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENO
+    RELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENO<br>
+    RELLENORELLENORELLENORELLENORELLENORELLENO
+    RELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENO<br>
+    RELLENORELLENORELLENORELLENORELLENO
+    RELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENO
+    RELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENO<br>
+    RELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENO
+    RELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENORELLENO<br>
+
+</p>
+        <h3 id="Contacto">Esto es una prueba de id contacto</h3>
+</body>
+</html>
+

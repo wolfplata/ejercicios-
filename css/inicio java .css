@@ -1,0 +1,47 @@
+*{box-sizing:border-box;}
+
+body{
+    font-family: 'Scheherazade New', serif;
+    background-color: black;
+    position:relative;
+}
+
+.clase1{
+    font-size:20px;
+    height:80px;
+    width:50%;
+    border-width:5px;
+    border-style:solid;
+    border-color:blanchedalmond;
+    color:blanchedalmond;
+    margin-left:25%;
+}
+
+.clase1 h1{
+    margin-top:0px;
+    margin-bottom:20%;
+    margin-left:10%;
+    margin-right: 10%;
+    max-height:100%;
+}
+
+.clase2{
+    color:blanchedalmond;
+}
+
+.clase3{
+    color:blanchedalmond;
+}
+
+.form{
+    color:blanchedalmond;
+   
+}
+
+.mensaje{
+    background-color:blanchedalmond;
+    max-width:75%;
+    padding-left:75px;
+    font-size:30px;
+    border-radius:20px 20px 20px 20px;
+}

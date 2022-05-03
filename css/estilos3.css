@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+
+    /*Normalmente sin el box sizing
+    anchura total= width+ padding+ border*/
+
+
+    /*Con el box sizing anchura total = width*/
+}
+
+.boxes {
+    background-color:aquamarine;
+    margin: auto auto auto auto;
+}
+
+.BOX { 
+    font-size: 20px;
+    background-color:rosybrown;
+    /*Colocamos una altura de caja minima de 100px*/
+    min-height: 100px;
+    /*Establecemos los margenes*/
+    margin-top: 20px;
+    margin-right:30px;
+    margin-bottom:10px;
+    margin-left:20px;
+/*Una forma mas rápida de escribir la configuración de 
+margenes, sigue la ruta de las agujas del reloj*/
+    margin:20px 30px 10px 20px;
+/*También aplica para padding*/
+    padding: 20px 30px 10px 20px;
+
+}
+
+/*Display:
+display:none "desaparece un bloque"
+display: inline "un elemento de bloque se comporta como elemento de linea"
+display: block "un elemento de linea se comporta com elemento de bloque"
+display: inline-block "Se comporta como un elemento de bloque
+que no provoca un salto de linea, y acepta margenes
+inferiores y superiores, o alturas"
+*/
+
+div{
+    font-size:20px;
+    background-color:sandybrown;
+    padding:10px;
+    margin-bottom:30px;
+    display:inline-block;
+}
+
+span{
+    font-size: 30px;
+    background-color:silver;
+    padding:10px;
+    display:block;
+}
+
+body{
+    font-size:30px;
+    padding:50px;
+}
+
+/* 
+Propiedades de flotar cajas.
+
+overflow: hidden "contenido oculto si pasa el tamaño de caja div
+
+overflow: scroll "sale un scroll si el contenido sobrepasa la caja"
+
+overflow: auto "el navegador decide cuando poner scroll igual al anterior"
+
+overflow: visible "muestra el contenido dentro de la caja"
+
+Ahora con dos elementos de bloques podemos usar las propiedades float.
+
+float: left "pone las cajas uno al lado de la otra hacia la izquierda"
+
+float: right "pone las cajas uno al lado de otra invertidas en oden y a la derecha"
+
+float: none " resetea los efectos de float"
+
+*/
+
+.box2{
+    height:200px;
+float:left;
+width:50%;
+overflow:scroll;
+}
+
+.box3{
+    height:200px;
+    float:left;
+    width:50%;
+    overflow:scroll;
+}
+
+.contenedor{
+    background-color:tan;
+    font-family:sans-serif;
+    position:relative;
+
+}
+
+.contenedor p{
+    text-decoration:underline;
+    font-size:30px;
+}
+.contenedor span{
+    background-color:tomato;
+    font-size:30px;
+    position:absolute;
+    right:0px;
+    top:0px;
+    z-index:1;
+}
+.contenedor span.alt{
+    background-color:green;
+    font-size:25px;
+    position:absolute;
+    right:0px;
+    top:0px;
+    z-index:0;
+}

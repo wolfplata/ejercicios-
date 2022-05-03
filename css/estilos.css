@@ -1,0 +1,139 @@
+.contenedor{
+    color: purple;
+    /* cambiamos el color a purpura a todo lo que este dentro de contenedor*/
+}
+.contenedor p{
+    color: red;
+    /*cambiamos el color a rojo a todo lo que esté dentro del parrafo del div*/
+}
+.contenedor p span{
+    color: green;
+    /*cambiamos el color a verde a todo lo que esté dentro del parrafo del span dentro del div*/
+}
+
+/*existen otros llamados, por ejemplo a contactos se le llama con el #nombredelcontacto en html seria con 
+id=contacto, y otro es el *{} afecta el estilo de todo el archivo en general*/
+.contenedor h1{
+    font-size: 24px;
+}
+.tipografia h2{
+    font-size:24px;
+    /*Cambio el tamaño de letra a 24px*/
+}
+.tipografia p{
+    font-weight: bold;
+    /*Cambio a negrita*/
+}
+.tipografia h3{
+    font-weight: normal;
+    /*Cambio a letra sin negrita*/
+}
+.tipografia h4{
+    font-style: italic;
+    /*Cambio a cursiva*/
+}
+.tipografia2 h1{
+    text-decoration: underline;
+    /*Subrayamos el texto*/
+    color:hotpink;
+    /*Cambiamos el color a rosado*/
+}
+.tipografia2 h2{
+    text-decoration: line-through;
+    /*Tachamos el texto*/
+    color:#FF0000;
+    /*Cambiamos el color a rojo*/
+}
+.tipografia2 h3{
+    line-height:1.5;
+    /*Separación de líneas de 1.5*/
+    color: rgba(255,0,0,0.4);
+    /*Cambiamos el color a rojo con un 40% de transparencia*/
+}
+.tipografia2 h4{
+    line-height: 3;
+}
+
+/* ¿Cómo ordenar la carpeta de estilos? */
+
+/* General 
+
+body{
+    margin: 30px;
+}
+
+p{
+    font-size:20px;
+}
+
+Estilos tipográficos
+
+.ejemplo{
+    font-size:30px;
+}
+
+p.ejemplo{ 
+    font-size:12px;
+}
+
+Cabecera
+
+.navegacion{
+    xxxx: xx;
+}
+
+.logo{
+    xxxx: xx;
+}
+
+Estructura
+
+.contenedor{
+    xxxx: xx;
+}
+
+.piedepagina{
+    xxxx: xx;
+}
+
+Páginas
+
+.contacto{
+    xxxx: xx;
+}
+
+ojo si llamas al #contacto de esta forma este sobre escribe 
+su estilo sobre todo lo que esté dentro de el 
+*/
+
+.especifico{
+font-size: 35px;
+}
+
+.especifico p{
+    color:rgba(255,0,0,0.5);
+}
+
+p.parrafo{
+    font-size:20px;
+}
+
+a,
+
+a:visited {
+    color:blue;
+    text-decoration:none;
+}
+
+a:hover {
+text-decoration: underline;
+/*Cuando pasas el punto por el texto se dibuja un subrayado*/
+}
+
+a:active {
+    color:orange;
+}
+
+a:focus {
+    background-color:rgb(211, 211, 211);
+}

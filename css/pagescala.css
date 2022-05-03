@@ -1,0 +1,275 @@
+*{box-sizing:border-box;}
+
+body{ /*font-family: 'Ephesis', cursive;*/
+    font-family: 'Pacifico', cursive;
+position:relative;
+
+}
+
+
+
+
+.fondo{background-image:url(https://www.robotitus.com/wp-content/uploads/2017/12/7463fa84c6286eba4791fb3976cef412.png);
+    background-size:100% 100%;
+    padding:10px 10px 10px 10px;
+   
+    background-repeat:no-repeat;
+    
+
+}
+    .parrafo1{
+    background-color:coral;
+    width:90%;
+    height:100%;
+    box-shadow:7px 7px 10px black;
+    border-style:solid;
+    border-width:5px;
+    border-color:rgb(240, 100, 49);
+    border-radius: 10px 10px 10px 10px;
+    margin-left:30px;
+    margin-top:50px;
+    margin-right:30px;
+    margin-bottom:30px;
+    padding:5px 5px 5px 5px;
+    
+    }
+
+    .parrafo2{
+        background-color:coral;
+        width:90%;
+        max-height:100%;
+        box-shadow:7px 7px 10px black;
+        border-style:solid;
+        border-width:5px;
+        border-color:rgb(240, 100, 49);
+        border-radius: 10px 10px 10px 10px;
+        margin-left:30px;
+        margin-top:50px;
+        margin-right:30px;
+        margin-bottom:30px;
+        padding:5px 5px 5px 5px;
+       
+            }
+
+            .navegación{ 
+
+                margin-left:20px;
+                margin-top:20px;
+                display:block;
+                padding-top:20px;
+                cursor:pointer;
+
+            }
+
+            .navegacion li{
+              list-style-type:circle;
+                
+            }
+            
+            .email {
+                margin:20px 20px 20px 20px;
+                display:block;
+                position:relative;
+                left:20px;
+                bottom:10px;
+                
+            
+            }
+
+            .email a{
+                /* Las transiociones dependen de un cambio de estado 
+                de un valor menor a mayor o viceversa.
+
+                Ese cambio de estado debe estar respaldado por cantidades.
+                Por ejemplo el color es un valor numerico por lo tanto
+                se puede trancisionar, asi como también la opacidad,
+                ancho, largo, etc.*/
+
+                color:blue;
+                transition:1s color 1s;
+                opacity:1.0;
+                transition:1s opacity;
+
+            }
+
+            .email a:hover{
+                /*Estas son las variables transicionadas,
+                en este caso el color y la opacidad.*/
+                
+                color:red;
+                opacity:0.5;
+            }
+
+            @media screen and (max-width:849px){
+
+                .js .navegacion{
+                    max-height:0px;
+                    overflow:scroll;
+                    transition:0.5s max-height;
+                    position:absolute;
+                    top:43px;
+                    left:auto;
+                    right:auto;
+                    background-color:#2D211F;
+                    
+
+                }
+
+                .js .navegacion a{
+                    padding:5px 10px;
+                    color:#FFF;
+                    border-top:1px solid rgba(255,255.255, 0.4);
+                    z-index:1000;
+
+                }
+
+                .js .navegacion.menu-desplegado{
+                    max-height:700px;
+                   
+                }
+
+            }
+           
+
+
+            @media screen and (min-width:850px) and (max-width:1229px){
+
+                .lanzador-menu{
+                    display:none;
+                }
+                
+                .navegacion{
+                    position:absolute;
+                    top:10px;
+                    left:50px;
+                   
+                    list-style-type:none;
+                
+                }
+                .navegacion li{
+                    display:inline-block;
+
+                }
+               
+
+                .parrafo1{
+                    background-color:coral;
+                    width:90%;
+                    height:70%;
+                    box-shadow:7px 7px 10px black;
+                    border-style:double;
+                    border-width:10px;
+                    border-color:rgb(240, 100, 49);
+                    border-radius: 20px 20px 20px 20px;
+                    margin-left:30px;
+                    margin-top:50px;
+                    margin-right:30px;
+                    margin-bottom:30px;
+                    padding:5px 5px 5px 5px;
+                    font-family:'Times New Roman', Times, serif;
+                    font-size:20px;
+                    
+                    
+                }
+
+                .parrafo2{
+                    background-color:coral;
+                    width:90%;
+                    max-height:70%;
+                    box-shadow:7px 7px 10px black;
+                    border-style:double;
+                    border-width:10px;
+                    border-color:rgb(240, 100, 49);
+                    border-radius: 20px 20px 20px 20px;
+                    margin-left:30px;
+                    margin-top:50px;
+                    margin-right:30px;
+                    margin-bottom:30px;
+                    padding:5px 5px 5px 5px;
+                    font-family:'Times New Roman', Times, serif;
+                    font-size:20px;
+                   
+                        }
+                .fondo{
+                    background-image:url(https://www.robotitus.com/wp-content/uploads/2017/12/7463fa84c6286eba4791fb3976cef412.png);
+                    background-size:100% 100%;
+                    padding:10px 10px 10px 10px;
+                    overflow:scroll;
+   
+                }
+            }
+
+                @media screen and (min-width:1230px){
+
+                   
+                    .lanzador-menu{
+                        display:none;
+                    }
+                    
+                    .navegacion {
+                        position:absolute;
+                        top:10px;
+                        left:50px;
+                        
+                        list-style-type:none;
+                    
+                    }
+               .navegacion li{
+
+                display:inline-block;
+
+               }
+                    .parrafo1{
+                        background-color:coral;
+                        width:40%;
+                        height:70%;
+                        box-shadow:7px 7px 10px black;
+                        border-style:double;
+                        border-width:10px;
+                        border-color:rgb(240, 100, 49);
+                        border-radius: 20px 20px 20px 20px;
+                        margin-left:30px;
+                        margin-top:50px;
+                        margin-right:30px;
+                        margin-bottom:30px;
+                        padding:5px 5px 5px 5px;
+                        font-family:'Times New Roman', Times, serif;
+                        font-size:20px;
+                     
+                        float:left;
+                        
+                        
+                    }
+    
+                    .parrafo2{
+                        background-color:coral;
+                        width:50%;
+                        max-height:70%;
+                        box-shadow:7px 7px 10px black;
+                        border-style:double;
+                        border-width:10px;
+                        border-color:rgb(240, 100, 49);
+                        border-radius: 20px 20px 20px 20px;
+                        margin-left:10px;
+                        margin-top:50px;
+                        margin-right:30px;
+                        margin-bottom:30px;
+                        padding:5px 5px 5px 5px;
+                        font-family:'Times New Roman', Times, serif;
+                        font-size:20px;
+                        float:left;
+                       
+                            }
+
+                            
+
+                            .fondo{
+                                background-image:url(https://www.robotitus.com/wp-content/uploads/2017/12/7463fa84c6286eba4791fb3976cef412.png);
+                                background-size:100% 100%;
+                                padding:10px 10px 10px 10px;
+                                overflow:scroll;
+               
+                            }
+
+                        
+                        }

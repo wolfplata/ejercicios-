@@ -1,0 +1,35 @@
+*{box-sizing:border-box;}
+
+.body{
+    font-family: 'Tapestry', cursive;
+}
+
+.fondo{
+    background-image:url(https://pm1.narvii.com/6844/b3afa293d4157a84c7bbfe8bae3305699715af0cv2_hq.jpg);
+    background-size:100% 100%;
+    padding:10px 10px 10px 10px;
+   
+    background-repeat:inherit;
+    opacity:0.4;
+    
+}
+
+.hola1{
+    color:black;
+    font-size:60px;
+    opacity:1.0;
+}
+.hola2{
+    color:black;
+    opacity:1.0;
+}
+.parrafo1{
+    color:white;
+    font-size:40px;
+    opacity:1.0;
+}
+.parrafo2{
+    color:white;
+    font-size:40px;
+    opacity:1.0;
+}
